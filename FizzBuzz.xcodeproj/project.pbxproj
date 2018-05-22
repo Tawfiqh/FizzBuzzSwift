@@ -12,6 +12,7 @@
 		69902B3C209076C900B417A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69902B3A209076C900B417A9 /* Main.storyboard */; };
 		69902B3E209076CB00B417A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69902B3D209076CB00B417A9 /* Assets.xcassets */; };
 		69902B41209076CB00B417A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69902B3F209076CB00B417A9 /* LaunchScreen.storyboard */; };
+		69902B49209077DC00B417A9 /* FizzBuzzModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69902B48209077DC00B417A9 /* FizzBuzzModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		69902B3D209076CB00B417A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69902B40209076CB00B417A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69902B42209076CB00B417A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69902B48209077DC00B417A9 /* FizzBuzzModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				69902B36209076C900B417A9 /* AppDelegate.swift */,
 				69902B38209076C900B417A9 /* ViewController.swift */,
 				69902B3A209076C900B417A9 /* Main.storyboard */,
+				69902B48209077DC00B417A9 /* FizzBuzzModel.swift */,
 				69902B3D209076CB00B417A9 /* Assets.xcassets */,
 				69902B3F209076CB00B417A9 /* LaunchScreen.storyboard */,
 				69902B42209076CB00B417A9 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				69902B39209076C900B417A9 /* ViewController.swift in Sources */,
 				69902B37209076C900B417A9 /* AppDelegate.swift in Sources */,
+				69902B49209077DC00B417A9 /* FizzBuzzModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99MXLHWZXE;
 				INFOPLIST_FILE = FizzBuzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99MXLHWZXE;
 				INFOPLIST_FILE = FizzBuzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
