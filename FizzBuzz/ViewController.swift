@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     model = FizzBuzzModel();
-    emojiOutlet.text = ""
     numberOutlet.text = "0"
+    emojiOutlet.text = "👆"
 
     
   }
